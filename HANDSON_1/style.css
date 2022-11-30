@@ -1,0 +1,38 @@
+.head{
+    color:crimson;
+}
+.itl{
+    font-style:italic;
+}
+#list{
+    color:purple;
+    line-height:40px;
+}
+#cut{
+    text-decoration: line-through;
+    font-weight:bold;
+}
+.bg{
+    background-color:yellow;
+    font-weight:bold;
+}
+#under{
+    font-style:italic;
+    text-decoration:underline;
+}
+#list2{
+    color:darkslateblue;
+    letter-spacing:7px;
+}
+.para{
+    color:darkviolet;
+ }
+ .space{
+    line-height:40px;
+ }
+ .new{
+    font-style:italic;
+    color:red;
+    background-color:yellow;
+    text-decoration:none;
+ }
