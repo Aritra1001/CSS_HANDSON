@@ -1,0 +1,155 @@
+body{
+    background-color:grey;
+}
+
+.div{
+    border: 5px solid red;
+    color: purple;
+    background-color: white;
+    border-radius: 15px;
+    position:relative;
+    left:35%;
+    height:120px;
+    width: 400px;
+    box-shadow: 7px 7px purple;
+}
+.head{
+    text-align:center;
+    font-style:italic;
+    line-height: 15px;
+    font-size:25px;
+    font-weight:bold;
+    text-shadow: 1x 1px black;
+}
+.parentdiv{
+    border: 7px solid green;
+    height:650px;
+    
+}
+.flexbox{
+    display:flex;
+    justify-content: space-between;
+    position:relative;    
+}
+.box{
+    border: 5px solid red;   
+    border-radius:10px;
+    background-color:white;
+    height:200px;
+    width:250px;
+    text-align:center;
+    box-shadow: 7px 7px purple;
+}
+img{
+    padding: 40px 20px;
+    height:100px;
+    width:200px;
+}
+.box1{
+    color:rgb(68, 3, 96);
+    font-weight:bold;
+    font-size:20px;
+    text-shadow: 1.5px 1.5px black;
+    padding-bottom: 40px;
+}
+.box2{
+    position:absolute;
+    right:50px;
+}
+.box3{
+    color:rgb(68, 3, 96);
+    font-weight:bold;
+    font-size:17px;
+    text-shadow: 1.5px 1.5px black;
+    position:absolute;
+    top:380px;
+}
+.box4{
+    color:rgb(68, 3, 96);
+    font-weight:bold;
+    font-size:15px;
+    text-shadow: 1px 1px black;
+    position:absolute;
+    top: 380px;
+    right:50px;
+   
+}
+.small{
+    font-size: 10px;
+}
+.box3>p{
+    margin:0px;
+    font-size:23px;
+    text-align:left;
+}
+.space{
+    padding-top:15px;
+}
+.space1{
+    padding-top:20px;
+}
+.inputspace{
+    width:100px;
+}
+button{
+    background-color:red;
+    border-radius:20px;
+}
+.showcase{
+    border: 7px solid red;
+    border-radius:15px;
+    background-color:chartreuse;
+    box-shadow:7px 7px purple;
+    font-style:italic;
+    color:crimson;
+    font-weight:bold;
+    height:65px;
+    width:490px;
+    text-align:center;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    position:fixed;
+    left:445px;
+    bottom: 50px;
+}
+.showcase>div{
+    height:max-content;
+    padding:10px;
+    padding-bottom: 15px;
+}
+
+.big{
+    font-size:20px;
+    width:200px;
+}
+.small1{
+    font-size:15px;
+    width:110px;
+} 
+#outsidebox{
+    border: 7px solid purple;
+    text-align: center;
+    margin: auto;
+    height: max-content;
+    width: 815px;
+}
+.insidebox{
+    border: 1px solid purple;
+    background-color:burlywood;
+    text-align:center;
+    padding:20px;
+   font-style:italic;
+}
+.arr1{
+    float:left;
+    margin-bottom: 20px;
+}
+.arr2{
+    float:right;
+    margin-bottom:20px;
+}
+.arr3{
+    clear:both;
+    margin-top:20px;
+}
