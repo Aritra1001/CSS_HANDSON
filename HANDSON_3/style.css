@@ -129,6 +129,7 @@ button{
 } 
 #outsidebox{
     border: 7px solid purple;
+    background-color: darkgreen;
     text-align: center;
     margin: auto;
     height: max-content;
