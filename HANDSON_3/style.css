@@ -133,7 +133,7 @@ button{
     text-align: center;
     margin: auto;
     height: max-content;
-    width: 815px;
+    width: 840px;
 }
 .insidebox{
     border: 1px solid purple;
@@ -145,10 +145,12 @@ button{
 .arr1{
     float:left;
     margin-bottom: 20px;
+    width: 44%
 }
 .arr2{
     float:right;
     margin-bottom:20px;
+    width: 44%;
 }
 .arr3{
     clear:both;
